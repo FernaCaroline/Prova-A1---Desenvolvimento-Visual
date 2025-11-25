@@ -1,0 +1,22 @@
+### Listar todas as tarefas
+GET http://localhost:5000/api/chamado/listar
+
+### Cadastrar uma nova tarefa
+POST http://localhost:5000/api/chamado/cadastrar
+Content-Type: application/json
+
+{
+    "descricao": "Trocar memórias"
+}
+
+### Listar não resolvidos
+
+GET http://localhost:5000/api/chamado/naoresolvidos
+
+### Listar resolvidas
+
+GET http://localhost:5000/api/chamado/resolvidos
+
+###Alterar por ID
+
+PUT http://localhost:5000/api/chamado/alterar/{id}
